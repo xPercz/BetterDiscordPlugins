@@ -1,11 +1,11 @@
 /**
  * @name WhoReacted
- * @version 1.2.0
+ * @version 1.2.1
  * @authorId 289112759948410881
  * @invite z6Yx9A8VDR
- * @website https://github.com/jaimeadf/BetterDiscordPlugins/tree/main/WhoReacted
- * @source https://github.com/jaimeadf/BetterDiscordPlugins/blob/main/WhoReacted/WhoReacted.plugin.js
- * @updateUrl https://raw.githubusercontent.com/jaimeadf/BetterDiscordPlugins/main/WhoReacted/WhoReacted.plugin.js
+ * @website https://github.com/jaimeadf/BetterDiscordPlugins/tree/release/src/WhoReacted
+ * @source https://github.com/jaimeadf/BetterDiscordPlugins/tree/release/src/WhoReacted
+ * @updateUrl https://raw.githubusercontent.com/jaimeadf/BetterDiscordPlugins/release/dist/WhoReacted/WhoReacted.plugin.js
  */
 
 /*@cc_on
@@ -47,35 +47,11 @@ const config = {
                 github_username: "jaimeadf"
             }
         ],
-        version: "1.2.0",
+        version: "1.2.1",
         description: "Shows the avatars of the users who reacted to a message.",
-        github: "https://github.com/jaimeadf/BetterDiscordPlugins/tree/main/WhoReacted",
-        github_raw: "https://raw.githubusercontent.com/jaimeadf/BetterDiscordPlugins/main/WhoReacted/WhoReacted.plugin.js"
-    },
-    changelog: [
-        {
-            title: "More features",
-            items: [
-                "Added a new setting that lets you choose if you want to use the reaction with most reactors or the sum of reactors for the user threshold.",
-                "Added auto updating when any setting is changed."
-            ]
-        },
-        {
-            title: "Improvements",
-            type: "improved",
-            items: [
-                "Various optimizations and performance fixes for a much smoother experience.",
-                "Renamed settings and rewritten their descriptions."
-            ]
-        },
-        {
-            title: "Finally fixed",
-            type: "fixed",
-            items: [
-                "The changelog now shows (yay)."
-            ]
-        }
-    ]
+        github: "https://github.com/jaimeadf/BetterDiscordPlugins/tree/release/src/WhoReacted",
+        github_raw: "https://raw.githubusercontent.com/jaimeadf/BetterDiscordPlugins/release/dist/WhoReacted/WhoReacted.plugin.js"
+    }
 };
 
 module.exports = !global.ZeresPluginLibrary ? class {
