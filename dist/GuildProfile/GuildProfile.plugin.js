@@ -38,7 +38,7 @@ const path = require('path');
 const request = require('request');
 const electron = require('electron');
 
-const config = {"info":{"name":"GuildProfile","description":"Adds a modal that can be opened via any guild menu and contains various information about the guild, such as its owner, creation date, joined date, your friends and blocked users who are in it, and much more.","version":"1.5.4","authors":[{"name":"Marmota (Jaime Filho)","discord_id":"289112759948410881"}],"github":"https://github.com/jaimeadf/BetterDiscordPlugins/tree/release/src/GuildProfile","github_raw":"https://raw.githubusercontent.com/jaimeadf/BetterDiscordPlugins/release/dist/GuildProfile/GuildProfile.plugin.js"},"changelog":[{"title":"Fixes","type":"fixed","items":["Fixed random crashes when you open menus."]}]};
+const config = {"info":{"name":"GuildProfile","description":"Adds a profile to guilds, lets you get information about it like the Server Owner, Creation Date, Verfication  Level, etc...","version":"1.5.4","authors":[{"name":"xPercz","discord_id":"939950391905362021"}],"github":"https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CreationDate/","github_raw":"https://raw.githubusercontent.com/xPercz/BetterDiscordPlugins/release/dist/GuildProfile/GuildProfile.plugin.js"},"changelog":[{"title":"Fixes","type":"fixed","items":["Fixed random crashes when you open menus."]}]};
 
 function buildPlugin() {
     const [Plugin, BoundedLibrary] = global.ZeresPluginLibrary.buildPlugin(config);
