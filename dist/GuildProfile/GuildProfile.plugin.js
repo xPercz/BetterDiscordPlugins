@@ -1,8 +1,8 @@
 /**!
  * @name GuildProfile
- * @description Add's a profile to guild's, lets you get information about it like the Server Owner, Creation Date, Verfication  Level, etc...
+ * @description Adds a profile to guilds, lets you get information about it like the Server Owner, Creation Date, Verfication  Level, etc...
  * @version 1.5.4
- * @author xPercz#0001
+ * @author xPercz
  * @authorId 939950391905362021
  * @invite topwrld
  * @donate https://paypal.me/xpercz 
