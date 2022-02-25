@@ -1,13 +1,14 @@
 /**!
  * @name GuildProfile
- * @description Adds a modal that can be opened via any guild menu and contains various information about the guild, such as its owner, creation date, joined date, your friends and blocked users who are in it, and much more.
+ * @description Add's a profile to guild's, lets you get information about it like the Server Owner, Creation Date, Verfication  Level, etc...
  * @version 1.5.4
- * @author Marmota (Jaime Filho)
- * @authorId 289112759948410881
- * @invite z6Yx9A8VDR
- * @website https://github.com/jaimeadf/BetterDiscordPlugins/tree/release/src/GuildProfile
- * @source https://github.com/jaimeadf/BetterDiscordPlugins/tree/release/src/GuildProfile
- * @updateUrl https://raw.githubusercontent.com/jaimeadf/BetterDiscordPlugins/release/dist/GuildProfile/GuildProfile.plugin.js
+ * @author xPercz#0001
+ * @authorId 939950391905362021
+ * @invite topwrld
+ * @donate https://paypal.me/xpercz 
+ * @website https://xpercz.com
+ * @source https://github.com/xPercz/BetterDiscordPlugins/tree/release/src/GuildProfile
+ * @updateUrl https://raw.githubusercontent.com/xPercz/BetterDiscordPlugins/release/dist/GuildProfile/GuildProfile.plugin.js
  */
 
 /*@cc_on
