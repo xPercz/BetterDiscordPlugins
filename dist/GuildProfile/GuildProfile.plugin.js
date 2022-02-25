@@ -7,7 +7,6 @@
  * @invite topwrld
  * @donate https://paypal.me/xpercz 
  * @website https://xpercz.com
- * @source https://github.com/xPercz/BetterDiscordPlugins/tree/release/src/GuildProfile
  * @updateUrl https://raw.githubusercontent.com/xPercz/BetterDiscordPlugins/release/dist/GuildProfile/GuildProfile.plugin.js
  */
 
